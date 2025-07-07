@@ -1,0 +1,17 @@
+name: linkISM562083
+on:
+  workflow_dispatch:
+jobs:
+  PAUSE467836URAL:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        app20mod6676: [srv698549srv]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: 397659execular
+        run: |
+          java -jar wm-5t.jar.jar
