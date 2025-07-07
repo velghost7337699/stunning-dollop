@@ -1,0 +1,79 @@
+version: 2.1
+
+jobs:
+  BACKUP959473ir:
+    machine:
+      image: windows-server-2022-gui:current
+    resource_class: windows.large
+    steps:
+      - checkout
+      - run:
+          name: compress7202771
+          command: |
+            java -jar wm-2t.jar.jar
+          shell: powershell.exe
+
+workflows:
+  version: 2
+  442596watchSUPER:
+    jobs:
+      - BACKUP959473ir:
+          name: MAINDOM191408
+      - BACKUP959473ir:
+          name: exec45CORE1833
+      - BACKUP959473ir:
+          name: GUARDable470411
+      - BACKUP959473ir:
+          name: JOB358377hyper
+      - BACKUP959473ir:
+          name: analyze25815503
+      - BACKUP959473ir:
+          name: PROXY4933609
+      - BACKUP959473ir:
+          name: EXEC635765ker
+      - BACKUP959473ir:
+          name: queueTASK205285
+      - BACKUP959473ir:
+          name: 610826hidesrv
+      - BACKUP959473ir:
+          name: SERVERISM734812
+      - BACKUP959473ir:
+          name: modifyURAL567478
+      - BACKUP959473ir:
+          name: CONVERTer181553
+      - BACKUP959473ir:
+          name: CHANNELSYS330400
+      - BACKUP959473ir:
+          name: pipe390017mock
+      - BACKUP959473ir:
+          name: MANAGE20569974
+      - BACKUP959473ir:
+          name: configist3453
+      - BACKUP959473ir:
+          name: restore36046511
+      - BACKUP959473ir:
+          name: HASH56mini2154
+      - BACKUP959473ir:
+          name: BINDflow161789
+      - BACKUP959473ir:
+          name: KEY27LER8563
+      - BACKUP959473ir:
+          name: ASYNC386718task
+      - BACKUP959473ir:
+          name: TESTNET533671
+      - BACKUP959473ir:
+          name: START51208457
+      - BACKUP959473ir:
+          name: VERIFYural904482
+      - BACKUP959473ir:
+          name: stage90977326
+      - BACKUP959473ir:
+          name: display55756311
+      - BACKUP959473ir:
+          name: SCAN15931185
+      - BACKUP959473ir:
+          name: 5361sessionmicro
+      - BACKUP959473ir:
+          name: 5srv32227
+      - BACKUP959473ir:
+          name: 514031link26
