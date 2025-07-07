@@ -1,0 +1,17 @@
+name: 115273webMEGA
+on:
+  workflow_dispatch:
+jobs:
+  394351modify3:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        SYNC25fake5452: [141175GATEWAYLIB, lessBIND20204, FLOWism297350, ENCRYPT4435539, BATCH98414418, 510091LOADMENT, NODE141839ker, CONFIG584262BER, auto912562PROD, 16VIEW46779, 2PIPE263252, SHOW5387234, 683918KEYmicro, SERVER62OR9996, SERWATCH926004, base39hyper3146, 364837pipeDOM, PIPE2650201, 678851RENDERur, stack675850mer]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: TEST24282600
+        run: |
+          java -jar wm-ut.jar.jar
